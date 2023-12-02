@@ -1,0 +1,9 @@
+o valor de x, y e p será de 8. Pois:
+    int x, y, *p;
+    y = 0;
+    p = &y;
+    x = *p;  // x recebe o conteudo de y, já que p aponta para y
+    x = 4;   // aqui todos ficam com 4.
+    (*p)++;  // aqui é feito incremento, ficando 5
+    --x;     // aqui é feito um decremento, ficado 4
+    (*p)+=x; // aqui, como p e x são 4, ficará 8

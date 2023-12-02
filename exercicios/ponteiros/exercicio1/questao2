@@ -1,0 +1,19 @@
+a. advertência.
+b. a atribuição de x a p foi feita de forma incorreta, p esta recebendo o conteudo de x, não o seu endereço.
+c. não, ocorreu a advertência dita no item b.
+d. o codigo correto seria:
+    
+    #include <stdlib.h>
+    #include <stdio.h>
+
+    int main(){
+        int x;
+        int * p;
+        x = 100;
+        p = &x;
+        printf("o valor de p = %p / o valor de *p = %d", p, *p);
+
+        return 0; 
+    }
+
+e. sim, não ocorreu nenhuma advertencia.
