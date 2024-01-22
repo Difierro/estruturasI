@@ -21,6 +21,7 @@ int main (void){
     imprimirDados(pessoa, qtdPessoa);
     atualizacaoIdade(pessoa, qtdPessoa);
     comparacaoIdade(pessoa, qtdPessoa);
+    free(pessoa);
     return 0;
 }
 

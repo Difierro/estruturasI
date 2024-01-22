@@ -30,7 +30,8 @@ int main(void){
     }
 
     maiorSalario(colaborador); //aqui ele está pegando o array completo e fará a "filtragem" dentro da funçao maiorSalario
-    
+    free(colaborador);
+
     return 0;
 }
 

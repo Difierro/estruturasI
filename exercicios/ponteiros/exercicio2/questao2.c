@@ -30,7 +30,9 @@ int main(void){
     
     float aprovadosPorcent = calculoPorcentAprov(resultado, alunos); 
     printf("A porcentagem de aprovados da turma e de %.2f", aprovadosPorcent);
-
+    free(resultado);
+    free(gabarito);
+    free(respostas);
     return 0;
 }
 
