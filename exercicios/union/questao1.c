@@ -23,9 +23,9 @@ void preencherDados(Pessoa * pessoa){
     printf("Selecione o sexo da pessoa: 0.Masculino 1.Feminino");
     scanf("%d", &opcao);
     if(opcao){
-        strcpy(pessoa->genero.masculino, "FEMININO");
+        strcpy(pessoa->genero.feminino, "FEMININO");
     }else{
-        strcpy(pessoa->genero.feminino, "MASCULINO");
+        strcpy(pessoa->genero.masculino, "MASCULINO");
     }
 }
 
