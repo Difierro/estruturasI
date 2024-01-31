@@ -72,7 +72,7 @@ void getDados(FILE * entrada, int qtdAlunos, Aluno * aluno){
 
     for(i = 0; i < qtdAlunos; i++){
         fscanf(entrada, "%s%f%f%f", aluno[i].nome, &aluno[i].nota1, &aluno[i].nota2, &aluno[i].nota3);
-    }// acho que ta pegando so a l1
+    }
 }
 
 void calculaMedia(int qtdAlunos, Aluno * aluno){
