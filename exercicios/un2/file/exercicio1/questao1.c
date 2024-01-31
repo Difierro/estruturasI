@@ -63,6 +63,8 @@ void getQtdAlunos(FILE * entrada, int * qtdAlunos){
             (*qtdAlunos)++;
         }
     }
+
+    (*qtdAlunos)++; //nao estava contando a 1 linha, ent adicionei esse incremento
 }
 
 void getDados(FILE * entrada, int qtdAlunos, Aluno * aluno){

@@ -1,0 +1,3 @@
+gustavo	9.17	Aprovado
+carla	7.67	Aprovado
+pedro	4.17	Reprovado
