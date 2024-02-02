@@ -1,0 +1,3 @@
+nome: gustavo r
+id: 12
+salario: 123.00

@@ -1,3 +1,3 @@
-maior: 433
-menor: 10
-media: 145.50
+maior: 3564
+menor: 2
+media: 777.22
