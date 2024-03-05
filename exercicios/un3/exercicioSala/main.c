@@ -2,7 +2,7 @@
 
 int main (void){
     Lista * listaEncadeada = criarLista();
-
+    int ElementoRemover = 0;
     listaEncadeada = insereElemento(listaEncadeada, 3);
     listaEncadeada = insereElemento(listaEncadeada, 2);
     listaEncadeada = insereElemento(listaEncadeada, 5);
@@ -15,7 +15,9 @@ int main (void){
 
     procuraElemento(listaEncadeada, 4);
     
-    removeElemento(listaEncadeada, 5);
+    printf("Digite o elemento que deseja remover: ");
+    scanf("%d", &ElementoRemover);
+    listaEncadeada = removeElemento(listaEncadeada, ElementoRemover);
 
     imprimeElementos(listaEncadeada);
 
